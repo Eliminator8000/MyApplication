@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/view_distance"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/idDisplay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:padding="@dimen/view_padding"
+        android:background="@color/gray2"
+        android:textSize="@dimen/textsize_display"
+        android:textColor="@color/black"
+        android:text="0"/>
+
+    <TextView
+        android:id="@+id/idDisplay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/view_distance"
+        android:gravity="center_vertical|right"
+        android:padding="@dimen/view_padding"
+        android:background="@color/gray2"
+        android:textSize="@dimen/textsize_display"
+        android:textColor="@color/black"
+        android:text="0"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idButtonZero"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_zero"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+        <Button
+            android:id="@+id/idButtonOne"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_one"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+        <Button
+            android:id="@+id/idButtonDelete"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_delete"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idButtonAdd"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_add"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+        <Button
+            android:id="@+id/idButtonMult"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_mult"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+        <Button
+            android:id="@+id/idButtonSave"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_save"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idButtonRestore"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:text="@string/text_button_restore"
+            android:textSize="@dimen/textsize_button"
+            android:textAllCaps="false"
+            android:padding="@dimen/view_padding"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:background="@color/transparent"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/button_height"
+            android:layout_weight="1"
+            android:background="@color/transparent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

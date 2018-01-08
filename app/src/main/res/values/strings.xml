@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MiniCalc</string>
+    <string name="text_button_zero">0</string>
+    <string name="text_button_one">1</string>
+    <string name="text_button_save">save</string>
+    <string name="text_button_restore">restore</string>
+    <string name="text_button_add">+</string>
+    <string name="text_button_mult">*</string>
+    <string name="text_button_delete">del</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
